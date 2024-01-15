@@ -8,6 +8,11 @@ function closePopup() {
   document.getElementById("donationPopup").style.display = "none";
 }
 
+let button = document.getElementById("btn");
 
+button.addEventListener("click",()=>{
+  let name = document.getElementById("name").value;
+  alert(`Thank You ${name}`)
+})
 
 
